@@ -29,7 +29,7 @@ public class Calculator
 
     public long div(final long a, final long b) {
         if (b == 0L) {
-            throw new NumberFormatException("Attempt to divide by zero");
+            throw new NumberFormatException("Attempt to divide by zero");//Arithmetic ex
         }
         return a / b;
     }

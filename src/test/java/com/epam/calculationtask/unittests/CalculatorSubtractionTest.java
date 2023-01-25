@@ -1,4 +1,4 @@
-package com.epam.calculationtask.tests;
+package com.epam.calculationtask.unittests;
 
 import com.epam.calculatortask.Calculator;
 import org.junit.jupiter.api.*;
@@ -9,34 +9,34 @@ import org.junit.jupiter.params.provider.CsvSource;
 
 import java.util.logging.Logger;
 
-@Tag("smoke")
+@Tag("regression")
 @Execution(ExecutionMode.CONCURRENT)
-public class CalculationSumTest {
-
-    static final Logger log = Logger.getLogger(CalculationSumTest.class.getName());
+public class CalculatorSubtractionTest {
+    static final Logger log = Logger.getLogger(CalculatorSubtractionTest.class.getName());
 
     Calculator calculator;
 
 
     @BeforeEach
-    void beforeEachTest(TestInfo testInfo) {
+    void beforeEachTest() {
         calculator = new Calculator();
 
-        log.info(() -> String.format("Was started test [%s]", CalculationSumTest.class.getMethods()[0].toString()));
+        log.info(() -> String.format("Was started test [%s]", CalculatorSubtractionTest.class.getMethods()[0].toString()));
     }
 
     @AfterEach
     void afterEachTest(TestInfo testInfo) {
         log.info(() -> String.format("Was finished test [%s] with parameters:[%s]",
-                CalculationSumTest.class.getMethods()[0].toString(),
+                CalculatorSubtractionTest.class.getMethods()[0].toString(),
                 testInfo.getDisplayName().toUpperCase()));
     }
 
 
     //@Test
     @ParameterizedTest
-    @CsvSource({"0,0", "1,2", "100,1"})
+    @CsvSource({"0,1", "1,2", "100,1", "-4, -16"})
     public void sumCalsTest(int init, int init2) {
-        Assertions.assertEquals(init + init2, calculator.sum(init, init2));
+        Assertions.assertEquals(init - init2, calculator.sub(init, init2));
     }
 }
+
