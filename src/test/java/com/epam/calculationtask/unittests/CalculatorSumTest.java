@@ -9,14 +9,15 @@ import org.junit.jupiter.params.provider.CsvSource;
 
 import java.util.logging.Logger;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
 
 @Tag("smoke")
 @DisplayName("Check calculator sum() method logic work")
 @Execution(ExecutionMode.CONCURRENT)
 public class CalculatorSumTest {
 
-    static final Logger log = Logger.getLogger(CalculatorSumTest.class.getName());
+    static final Logger log = Logger.getLogger(CalculatorSumTest.class.getSimpleName());
 
     private Calculator calculator;
 
@@ -38,9 +39,9 @@ public class CalculatorSumTest {
 
     //@Test
     @ParameterizedTest
-    @CsvSource({"99,0", "-1,1", "1001,101","-9999, -1"})
+    @CsvSource({"99,0", "-1,1", "1001,101", "-9999, -1"})
     public void calcSumMethodTest(long init, long init2) {
-        assertEquals(init + init2+1, calculator.sum(init, init2));
+        assertEquals(init + init2, calculator.sum(init, init2));
     }
 
     @ParameterizedTest
@@ -49,6 +50,6 @@ public class CalculatorSumTest {
         boolean isTechnicalBoundaryForLongExceeded = (init + init2) < 0;
 
         assertFalse(isTechnicalBoundaryForLongExceeded,
-                "Technical Boundary For <long> type was exceeded: " +  (init + init2));
+                "Technical Boundary For <long> type was exceeded: " + (init + init2));
     }
 }

@@ -12,7 +12,7 @@ import java.util.logging.Logger;
 @Tag("regression")
 @Execution(ExecutionMode.CONCURRENT)
 public class CalculatorSubtractionTest {
-    static final Logger log = Logger.getLogger(CalculatorSubtractionTest.class.getName());
+    static final Logger log = Logger.getLogger(CalculatorSubtractionTest.class.getSimpleName());
 
     Calculator calculator;
 
