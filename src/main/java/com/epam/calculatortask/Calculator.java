@@ -1,7 +1,6 @@
 package com.epam.calculatortask;
 
-public class Calculator
-{
+public class Calculator {
 
     public long sum(final long a, final long b) {
         return a + b;
@@ -29,8 +28,8 @@ public class Calculator
 
     public long div(final long a, final long b) {
         if (b == 0L) {
-           // throw new NumberFormatException("Attempt to divide by zero");//Arithmetic ex
-            throw new ArithmeticException("Attempt to divide by zero");//Arithmetic ex
+            // throw new NumberFormatException("Attempt to divide by zero");//Arithmetic ex
+            throw new ArithmeticException("Attempt to divide by zero");
         }
         return a / b;
     }
@@ -64,7 +63,8 @@ public class Calculator
     }
 
     public boolean isPositive(final long val) {
-        return val != 0L && val > 0L;
+        //  return val != 0L && val > 0L;
+        return val > 0L;
     }
 
     public boolean isNegative(final long val) {

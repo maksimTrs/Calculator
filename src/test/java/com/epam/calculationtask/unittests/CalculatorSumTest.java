@@ -37,7 +37,6 @@ public class CalculatorSumTest {
     }
 
 
-    //@Test
     @ParameterizedTest
     @CsvSource({"99,0", "-1,1", "1001,101", "-9999, -1"})
     public void calcSumMethodTest(long init, long init2) {

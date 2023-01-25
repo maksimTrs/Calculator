@@ -1,7 +1,6 @@
 package com.epam.calculationtask.unittests;
 
 import com.epam.calculatortask.Calculator;
-import com.epam.calculatortask.Main;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.parallel.Execution;
 import org.junit.jupiter.api.parallel.ExecutionMode;
@@ -46,7 +45,7 @@ public class CalculatorDivideTest {
     }
 
     @ParameterizedTest
-    @CsvSource({"33.33, 11.11"})
+    @CsvSource({"33.33, 11.11", "-11, 43.99", "-100, -10001", "0, 55"})
     public void calcDivideMethodTest(double init, double init2) {
 
         assertEquals(init / init2, calculator.div(init, init2));
