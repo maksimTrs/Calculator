@@ -43,7 +43,7 @@ public class CalculatorSquareRootOfANumberTest {
 
     @ParameterizedTest
     @ValueSource(doubles = {1.99, -3.11, 5, 0, -15, Integer.MIN_VALUE, Double.MAX_VALUE})
-    public void calcDoubleDivideMethodTest(double init) {
+    public void calcDoubleSquareMethodTest(double init) {
 
         assertEquals(Math.sqrt(Math.abs(init)), calculator.sqrtMethod(init));
     }

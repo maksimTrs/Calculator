@@ -39,7 +39,7 @@ public class CalculatorSumForDoubleTest {
 
     @ParameterizedTest
     @CsvSource({"99.99,0", "-1,1.11", "1001,101", "-9999.99, -1", "0, -3"})
-    public void calcLongSumMethodTest(double init, double init2) {
+    public void calcDoubleSumMethodTest(double init, double init2) {
         assertEquals(init + init2, calculator.sumMethod(init, init2));
     }
 }

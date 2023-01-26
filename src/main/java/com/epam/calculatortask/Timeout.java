@@ -1,7 +1,7 @@
 package com.epam.calculatortask;
 
 
-// unnecessary class - we can use annotation
+// we can use JUnit annotation:
 // @Timeout(value = 500, unit = TimeUnit.MILLISECONDS)
 
 public class Timeout {

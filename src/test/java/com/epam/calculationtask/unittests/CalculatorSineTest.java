@@ -46,7 +46,7 @@ public class CalculatorSineTest {
     public void calcDoubleSineMethodTest(double init) {
 
         assertEquals(Math.sin(init), calculator.sineMethod(init),
-                "Wrong work of tangentMethod() - check the formula in this method!");
+                "Wrong work of Method - check the formula in this method!");
     }
 
 }

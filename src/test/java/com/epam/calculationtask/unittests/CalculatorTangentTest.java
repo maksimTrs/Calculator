@@ -46,7 +46,7 @@ public class CalculatorTangentTest {
     public void calcDoubleTangentMethodTest(double init) {
 
         assertEquals((Math.sin(init) / Math.cos(init)), calculator.tangentMethod(init),
-                "Wrong work of tangentMethod() - check the formula in this method!");
+                "Wrong work of Method - check the formula in this method!");
     }
 
 }

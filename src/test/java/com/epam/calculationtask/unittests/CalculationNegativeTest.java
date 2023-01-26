@@ -47,7 +47,7 @@ public class CalculationNegativeTest {
     @CsvSource({"9999, 99"})
     public void checkDoubleTechnicalBoundaryTest(double init, double init2) {
 
-        double technicalBoundaryResult = Math.pow(init, init2);
+        double technicalBoundaryResult = calculator.powMethod(init, init2);
         boolean isTechnicalBoundaryExceeded = technicalBoundaryResult == Double.POSITIVE_INFINITY;
 
         assertFalse(isTechnicalBoundaryExceeded,
@@ -57,9 +57,9 @@ public class CalculationNegativeTest {
 
     @ParameterizedTest
     @CsvSource({"9999, 99"})
-    public void checkLongTechnicalBoundaryTest(long init, long init2) {
+    public void checkDoubleTechnicalBoundaryTest2(double init, double init2) {
 
-        double technicalBoundaryResult = Math.pow(-init, init2);
+        double technicalBoundaryResult = calculator.powMethod(-init, init2);
         boolean isTechnicalBoundaryExceeded = technicalBoundaryResult == Double.NEGATIVE_INFINITY;
 
         assertFalse(isTechnicalBoundaryExceeded,
@@ -85,11 +85,11 @@ public class CalculationNegativeTest {
 
     @ParameterizedTest
     @CsvSource({"9223372036854775807, 1"})
-    public void calcLongSumMethodWithTechnicalBoundaryTest(long init, long init2) {
-        boolean isTechnicalBoundaryForLongExceeded = (init + init2) < 0;
+    public void calcLongMethodWithTechnicalBoundaryTest(long init, long init2) {
+        boolean isTechnicalBoundaryForLongExceeded = calculator.sumMethod(init, init2) < 0;
 
         assertFalse(isTechnicalBoundaryForLongExceeded,
-                "Technical Boundary For <long> type was exceeded: " + (init + init2));
+                "Technical Boundary  was exceeded: " + (init + init2));
     }
 
 }

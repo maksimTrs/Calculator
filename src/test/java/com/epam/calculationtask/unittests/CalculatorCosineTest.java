@@ -46,7 +46,7 @@ public class CalculatorCosineTest {
     public void calcDoubleCosineMethodTest(double init) {
 
         assertEquals(Math.cos(init), calculator.cosineMethod(init),
-                "Wrong work of tangentMethod() - check the formula in this method!");
+                "Wrong work of Method - check the formula in this method!");
     }
 
 }

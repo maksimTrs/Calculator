@@ -41,7 +41,7 @@ public class CalculatorSubtractionForDoubleTest {
 
     @ParameterizedTest
     @CsvSource({"0, 1.22", "1.11, 2", "100, 1", "-4.99, -16.99", "-5.55, 0"})
-    public void sumCalsTest(double init, double init2) {
+    public void subtractionCalsForDoubleTest(double init, double init2) {
         Assertions.assertEquals(init - init2, calculator.subtractionMethod(init, init2));
     }
 }

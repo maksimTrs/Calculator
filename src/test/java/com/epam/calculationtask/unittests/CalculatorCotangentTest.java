@@ -46,6 +46,6 @@ public class CalculatorCotangentTest {
     public void calcDoubleCotangentMethodTest(double init) {
 
         assertEquals(Math.tanh(init), calculator.cotangentMethod(init),
-                "Wrong work of tangentMethod() - check the formula in this method!");
+                "Wrong work of Method - check the formula in this method!");
     }
 }
