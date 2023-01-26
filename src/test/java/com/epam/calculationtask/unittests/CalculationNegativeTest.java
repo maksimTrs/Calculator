@@ -12,12 +12,12 @@ import java.util.logging.Logger;
 
 import static com.epam.calculatortask.Timeout.sleep;
 import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 @Tag("regression")
 @DisplayName("Check calculator logic with negative scenarios")
 @Execution(ExecutionMode.CONCURRENT)
 public class CalculationNegativeTest {
-
 
 
     static final Logger log = Logger.getLogger(CalculationNegativeTest.class.getSimpleName());
@@ -43,7 +43,6 @@ public class CalculationNegativeTest {
     }
 
 
-
     @ParameterizedTest
     @CsvSource({"9999, 99"})
     public void checkDoubleTechnicalBoundaryTest(double init, double init2) {
@@ -65,6 +64,32 @@ public class CalculationNegativeTest {
 
         assertFalse(isTechnicalBoundaryExceeded,
                 "***** Technical Boundary  was exceeded: " + technicalBoundaryResult + " *****");
+    }
+
+
+    @ParameterizedTest
+    @CsvSource({"33, 0"})
+    public void calcLongDivideByZeroExceptionTest(long init, long init2) {
+
+        assertThrows(ArithmeticException.class, () -> calculator.divideMethod(init, init2));
+    }
+
+
+    @ParameterizedTest
+    @CsvSource({"-33.99, 0"})
+    public void calcDoubleDivideByZeroExceptionTest(double init, double init2) {
+
+        assertThrows(ArithmeticException.class, () -> calculator.divideMethod(init, init2));
+    }
+
+
+    @ParameterizedTest
+    @CsvSource({"9223372036854775807, 1"})
+    public void calcLongSumMethodWithTechnicalBoundaryTest(long init, long init2) {
+        boolean isTechnicalBoundaryForLongExceeded = (init + init2) < 0;
+
+        assertFalse(isTechnicalBoundaryForLongExceeded,
+                "Technical Boundary For <long> type was exceeded: " + (init + init2));
     }
 
 }

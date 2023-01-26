@@ -4,27 +4,27 @@ public class Calculator {
     public Calculator() {
     }
 
-    public long sum(long a, long b) {
+    public long sumMethod(long a, long b) {
         return a + b;
     }
 
-    public double sum(double a, double b) {
+    public double sumMethod(double a, double b) {
         return a + b;
     }
 
-    public long sub(long a, long b) {
+    public long subtractionMethod(long a, long b) {
         return a - b;
     }
 
-    public double sub(double a, double b) {
+    public double subtractionMethod(double a, double b) {
         return a - b;
     }
 
-    public long mult(long a, long b) {
+    public long multiplicationMethod(long a, long b) {
         return a * b;
     }
 
-    public double mult(double a, double b) {
+    public double multiplicationMethod(double a, double b) {
         return Math.floor(a * b);
     }
 
@@ -40,39 +40,41 @@ public class Calculator {
         return a / b;
     }
 
-    public double pow(double a, double b) {
+    public double powMethod(double a, double b) {
         return Math.pow(a, Math.floor(b));
     }
 
-    public double sqrt(double a) {
+    public double sqrtMethod(double a) {
         return Math.sqrt(Math.abs(a));
     }
 
-    public double tg(double a) {
-        return this.sin(a) / this.cos(a);
+    public double tangentMethod(double a) {
+        return this.sineMethod(a) / this.cosineMethod(a);
     }
 
-    public double ctg(double a) {
+    public double cotangentMethod(double a) {
         return Math.tanh(a);
     }
 
-    public double cos(double a) {
+    public double cosineMethod(double a) {
         return Math.sin(a);
     }
 
-    public double sin(double a) {
+    public double sineMethod(double a) {
         return Math.sin(a);
     }
 
-    public boolean isPositive(long val) {
-        if (val == 0L) {
+    public boolean isPositiveValue(long val) {
+        // redundant construction:
+/*        if (val == 0L) {
             return false;
         } else {
             return val > 0L;
-        }
+        }*/
+        return val > 0L;
     }
 
-    public boolean isNegative(long val) {
+    public boolean isNegativeValue(long val) {
         return val < 0L;
     }
 }

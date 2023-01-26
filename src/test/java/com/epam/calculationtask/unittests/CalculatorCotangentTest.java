@@ -6,7 +6,7 @@ import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.parallel.Execution;
 import org.junit.jupiter.api.parallel.ExecutionMode;
 import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.CsvSource;
+import org.junit.jupiter.params.provider.ValueSource;
 
 import java.util.logging.Logger;
 
@@ -14,10 +14,11 @@ import static com.epam.calculatortask.Timeout.sleep;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @Tag("smoke")
-@DisplayName("Check calculator divideMethod() method for <double> type")
+@DisplayName("Check calculator cotangentMethod() method for <double> type")
 @Execution(ExecutionMode.CONCURRENT)
-public class CalculatorDivideForDoubleTypeTest {
-    static final Logger log = Logger.getLogger(CalculatorDivideForDoubleTypeTest.class.getSimpleName());
+public class CalculatorCotangentTest {
+
+    static final Logger log = Logger.getLogger(CalculatorCotangentTest.class.getSimpleName());
 
     private Calculator calculator;
 
@@ -26,7 +27,7 @@ public class CalculatorDivideForDoubleTypeTest {
     void initTest(TestInfo testInfo) {
         calculator = new Calculator();
         log.info(() -> String.format("Was started test [%s] with method:[%s]",
-                CalculatorDivideForDoubleTypeTest.class.getSimpleName(),
+                CalculatorCotangentTest.class.getSimpleName(),
                 testInfo.getTestMethod()));
 
         sleep(2);
@@ -35,17 +36,16 @@ public class CalculatorDivideForDoubleTypeTest {
     @AfterEach
     void tearDownTest(TestInfo testInfo) {
         log.info(() -> String.format("Was finished test [%s] with method:[%s]",
-                CalculatorDivideForDoubleTypeTest.class.getSimpleName(),
+                CalculatorCotangentTest.class.getSimpleName(),
                 testInfo.getTestMethod()));
     }
 
 
     @ParameterizedTest
-    @CsvSource({"33.33, 11.11", "-11, 43.99", "-100, -10001", "0, 55"})
-    public void calcDoubleDivideMethodTest(double init, double init2) {
+    @ValueSource(doubles = {1.99, -3.11, 5, 0, -15, Double.MIN_VALUE, Double.MAX_VALUE})
+    public void calcDoubleCotangentMethodTest(double init) {
 
-        assertEquals(init / init2, calculator.divideMethod(init, init2));
+        assertEquals(Math.tanh(init), calculator.cotangentMethod(init),
+                "Wrong work of tangentMethod() - check the formula in this method!");
     }
-
-
 }

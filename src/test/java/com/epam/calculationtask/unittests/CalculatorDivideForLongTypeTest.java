@@ -10,7 +10,7 @@ import org.junit.jupiter.params.provider.CsvSource;
 import java.util.logging.Logger;
 
 import static com.epam.calculatortask.Timeout.sleep;
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
 @Tag("smoke")
@@ -42,19 +42,11 @@ public class CalculatorDivideForLongTypeTest {
 
 
     @ParameterizedTest
-    @CsvSource({"33, 0"})
-    public void calcDivideMethodExceptionTest(long init, long init2) {
-
-        assertThrows(ArithmeticException.class, () -> calculator.divideMethod(init, init2));
-    }
-
-    @ParameterizedTest
     @CsvSource({"33, 11", "-11, 43", "-100, -10001", "0, 55"})
     public void calcLongDivideMethodTest(long init, long init2) {
 
         assertEquals(init / init2, calculator.divideMethod(init, init2));
     }
-
 
 
 }
