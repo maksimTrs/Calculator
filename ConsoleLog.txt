@@ -1,0 +1,632 @@
+PS E:\MAX\EPAM\AT_Mentoring_Java_Basic\Java Testing with JUnit\Calculator> mvn clean  test                                
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< com.epam.calculatortask:Calculator >-----------------
+[INFO] Building Calculator 1.0-SNAPSHOT                                        
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ Calculator ---
+[INFO] Deleting E:\MAX\EPAM\AT_Mentoring_Java_Basic\Java Testing with JUnit\Calculator\target
+[INFO]                                                                              
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Calculator ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource                                                        
+[INFO]                                                                           
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ Calculator ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to E:\MAX\EPAM\AT_Mentoring_Java_Basic\Java Testing with JUnit\Calculator\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Calculator ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.                                   
+[INFO] Copying 3 resources                                                                  
+[INFO]                                                                                      
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ Calculator ---   
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 17 source files to E:\MAX\EPAM\AT_Mentoring_Java_Basic\Java Testing with JUnit\Calculator\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ Calculator ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.epam.calculationtask.unittests.CalculatorSubtractionForLongTest
+[INFO] Running com.epam.calculationtask.unittests.CalculatorPositiveValueVerificationTest
+[INFO] Running com.epam.calculationtask.unittests.CalculatorCotangentTest
+[INFO] Running com.epam.calculationtask.unittests.CalculatorTangentTest
+[INFO] Running com.epam.calculationtask.unittests.CalculatorPowerOfANumberTest
+[INFO] Running com.epam.calculationtask.unittests.CalculatorMultiplicationForDoubleTest
+[INFO] Running com.epam.calculationtask.unittests.CalculatorDivideForLongTypeTest
+[INFO] Running com.epam.calculationtask.unittests.CalculatorSumForDoubleTest
+[INFO] Running com.epam.calculationtask.unittests.CalculatorSineTest
+[INFO] Running com.epam.calculationtask.unittests.CalculationNegativeTest
+[INFO] Running com.epam.calculationtask.unittests.CalculatorCosineTest
+[INFO] Running com.epam.calculationtask.unittests.CalculatorSumForLongTest
+[INFO] Running com.epam.calculationtask.unittests.CalculatorDivideForDoubleTypeTest
+[INFO] Running com.epam.calculationtask.unittests.CalculatorSquareRootOfANumberTest
+[INFO] Running com.epam.calculationtask.unittests.CalculatorSubtractionForDoubleTest
+[INFO] Running com.epam.calculationtask.unittests.CalculatorNegativeValueVerificationTest
+[INFO] Running com.epam.calculationtask.unittests.CalculatorMultiplicationForLongTest
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorSubtractionForDoubleTest initTest
+INFO: Was started test [CalculatorSubtractionForDoubleTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorSubtractionForDoubleTest.subtractionCalsForDoubleTest(double,double)]]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorMultiplicationForDoubleTest initTest
+INFO: Was started test [CalculatorMultiplicationForDoubleTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorMultiplicationForDoubleTest.calcDoubleMultiplicationMethodTest(double,double)]]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorMultiplicationForLongTest initTest
+INFO: Was started test [CalculatorMultiplicationForLongTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorMultiplicationForLongTest.calcLongMultiplicationMethodTest(long,long)]]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorDivideForDoubleTypeTest initTest
+INFO: Was started test [CalculatorDivideForDoubleTypeTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorDivideForDoubleTypeTest.calcDoubleDivideMethodTest(double,double)]]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorSubtractionForLongTest initTest
+INFO: Was started test [CalculatorSubtractionForLongTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorSubtractionForLongTest.subtractionCalsForLongTest(long,long)]]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculationNegativeTest initTest
+INFO: Was started test [CalculationNegativeTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculationNegativeTest.checkDoubleTechnicalBoundaryTest(double,double)]]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorSquareRootOfANumberTest initTest
+INFO: Was started test [CalculatorSquareRootOfANumberTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorSquareRootOfANumberTest.calcDoubleSquareMethodTest(double)]]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorNegativeValueVerificationTest initTest
+INFO: Was started test [CalculatorNegativeValueVerificationTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorNegativeValueVerificationTest.calcLongIsNegativeValueMethodTest(long)]]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorDivideForLongTypeTest initTest
+INFO: Was started test [CalculatorDivideForLongTypeTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorDivideForLongTypeTest.calcLongDivideMethodTest(long,long)]]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorNegativeValueVerificationTest initTest
+INFO: Was started test [CalculatorNegativeValueVerificationTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorNegativeValueVerificationTest.calcLongIsNegativeValueMethodTest2(long)]]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorCosineTest initTest
+INFO: Was started test [CalculatorCosineTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorCosineTest.calcDoubleCosineMethodTest(double)]]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorSineTest initTest
+INFO: Was started test [CalculatorSineTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorSineTest.calcDoubleSineMethodTest(double)]]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorNegativeValueVerificationTest initTest
+INFO: Was started test [CalculatorNegativeValueVerificationTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorNegativeValueVerificationTest.calcLongIsNegativeValueMethodTest2(long)]]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorCotangentTest initTest
+INFO: Was started test [CalculatorCotangentTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorCotangentTest.calcDoubleCotangentMethodTest(double)]]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorTangentTest initTest
+INFO: Was started test [CalculatorTangentTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorTangentTest.calcDoubleTangentMethodTest(double)]]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorSineTest initTest
+INFO: Was started test [CalculatorSineTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorSineTest.calcDoubleSineMethodTest(double)]]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorPowerOfANumberTest initTest
+INFO: Was started test [CalculatorPowerOfANumberTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorPowerOfANumberTest.calcDoublePowerOfNumberMethodTest(double,double)]]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorTangentTest initTest
+INFO: Was started test [CalculatorTangentTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorTangentTest.calcDoubleTangentMethodTest(double)]]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculationNegativeTest initTest
+INFO: Was started test [CalculationNegativeTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculationNegativeTest.calcDoubleDivideByZeroExceptionTest(double,double)]]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorPositiveValueVerificationTest initTest
+INFO: Was started test [CalculatorPositiveValueVerificationTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorPositiveValueVerificationTest.calcLongIsPositiveValueMethodTest2(long)]]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorSquareRootOfANumberTest initTest
+INFO: Was started test [CalculatorSquareRootOfANumberTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorSquareRootOfANumberTest.calcDoubleSquareMethodTest(double)]]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorPositiveValueVerificationTest initTest
+INFO: Was started test [CalculatorPositiveValueVerificationTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorPositiveValueVerificationTest.calcLongIsPositiveValueMethodTest2(long)]]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorPositiveValueVerificationTest initTest
+INFO: Was started test [CalculatorPositiveValueVerificationTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorPositiveValueVerificationTest.calcLongIsPositiveValueMethodTest(long)]]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorNegativeValueVerificationTest initTest
+INFO: Was started test [CalculatorNegativeValueVerificationTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorNegativeValueVerificationTest.calcLongIsNegativeValueMethodTest(long)]]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorPositiveValueVerificationTest initTest
+INFO: Was started test [CalculatorPositiveValueVerificationTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorPositiveValueVerificationTest.calcLongIsPositiveValueMethodTest2(long)]]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorCotangentTest initTest
+INFO: Was started test [CalculatorCotangentTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorCotangentTest.calcDoubleCotangentMethodTest(double)]]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorPowerOfANumberTest initTest
+INFO: Was started test [CalculatorPowerOfANumberTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorPowerOfANumberTest.calcDoublePowerOfNumberMethodTest(double,double)]]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorNegativeValueVerificationTest initTest
+INFO: Was started test [CalculatorNegativeValueVerificationTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorNegativeValueVerificationTest.calcLongIsNegativeValueMethodTest2(long)]]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorPowerOfANumberTest initTest
+INFO: Was started test [CalculatorPowerOfANumberTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorPowerOfANumberTest.calcDoublePowerOfNumberMethodTest(double,double)]]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorSumForDoubleTest initTest
+INFO: Was started test [public void com.epam.calculationtask.unittests.CalculatorSumForDoubleTest.calcDoubleSumMethodTest(double,double)]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorPositiveValueVerificationTest initTest
+INFO: Was started test [CalculatorPositiveValueVerificationTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorPositiveValueVerificationTest.calcLongIsPositiveValueMethodTest2(long)]]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorSquareRootOfANumberTest initTest
+INFO: Was started test [CalculatorSquareRootOfANumberTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorSquareRootOfANumberTest.calcDoubleSquareMethodTest(double)]]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorCosineTest initTest
+INFO: Was started test [CalculatorCosineTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorCosineTest.calcDoubleCosineMethodTest(double)]]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculationNegativeTest initTest
+INFO: Was started test [CalculationNegativeTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculationNegativeTest.calcLongMethodWithTechnicalBoundaryTest(long,long)]]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorPositiveValueVerificationTest initTest
+INFO: Was started test [CalculatorPositiveValueVerificationTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorPositiveValueVerificationTest.calcLongIsPositiveValueMethodTest2(long)]]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculationNegativeTest initTest
+INFO: Was started test [CalculationNegativeTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculationNegativeTest.checkDoubleTechnicalBoundaryTest2(double,double)]]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorSumForLongTest initTest
+INFO: Was started test [public void com.epam.calculationtask.unittests.CalculatorSumForLongTest.calcLongSumMethodTest(long,long)]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorPositiveValueVerificationTest initTest
+INFO: Was started test [CalculatorPositiveValueVerificationTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorPositiveValueVerificationTest.calcLongIsPositiveValueMethodTest(long)]]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorCosineTest initTest
+INFO: Was started test [CalculatorCosineTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorCosineTest.calcDoubleCosineMethodTest(double)]]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorCotangentTest initTest
+INFO: Was started test [CalculatorCotangentTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorCotangentTest.calcDoubleCotangentMethodTest(double)]]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorNegativeValueVerificationTest initTest
+INFO: Was started test [CalculatorNegativeValueVerificationTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorNegativeValueVerificationTest.calcLongIsNegativeValueMethodTest2(long)]]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorPositiveValueVerificationTest initTest
+INFO: Was started test [CalculatorPositiveValueVerificationTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorPositiveValueVerificationTest.calcLongIsPositiveValueMethodTest(long)]]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculationNegativeTest initTest
+INFO: Was started test [CalculationNegativeTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculationNegativeTest.calcLongDivideByZeroExceptionTest(long,long)]]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorCosineTest initTest
+INFO: Was started test [CalculatorCosineTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorCosineTest.calcDoubleCosineMethodTest(double)]]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorSumForLongTest tearDownTest
+INFO: Was finished test [public void com.epam.calculationtask.unittests.CalculatorSumForLongTest.calcLongSumMethodTest(long,long)] with parameters:[[1] 99, 0]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorSumForDoubleTest tearDownTest
+INFO: Was finished test [public void com.epam.calculationtask.unittests.CalculatorSumForDoubleTest.calcDoubleSumMethodTest(double,double)] with parameters:[[1] 99.99, 0]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorSumForLongTest initTest
+INFO: Was started test [public void com.epam.calculationtask.unittests.CalculatorSumForLongTest.calcLongSumMethodTest(long,long)]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorSumForDoubleTest initTest
+INFO: Was started test [public void com.epam.calculationtask.unittests.CalculatorSumForDoubleTest.calcDoubleSumMethodTest(double,double)]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorSumForLongTest tearDownTest
+INFO: Was finished test [public void com.epam.calculationtask.unittests.CalculatorSumForLongTest.calcLongSumMethodTest(long,long)] with parameters:[[2] -1, 1]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorSumForDoubleTest tearDownTest
+INFO: Was finished test [public void com.epam.calculationtask.unittests.CalculatorSumForDoubleTest.calcDoubleSumMethodTest(double,double)] with parameters:[[2] -1, 1.11]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorSumForLongTest initTest
+INFO: Was started test [public void com.epam.calculationtask.unittests.CalculatorSumForLongTest.calcLongSumMethodTest(long,long)]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorSumForDoubleTest initTest
+INFO: Was started test [public void com.epam.calculationtask.unittests.CalculatorSumForDoubleTest.calcDoubleSumMethodTest(double,double)]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorSumForLongTest tearDownTest
+INFO: Was finished test [public void com.epam.calculationtask.unittests.CalculatorSumForLongTest.calcLongSumMethodTest(long,long)] with parameters:[[3] 1001, 101]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorSumForDoubleTest tearDownTest
+INFO: Was finished test [public void com.epam.calculationtask.unittests.CalculatorSumForDoubleTest.calcDoubleSumMethodTest(double,double)] with parameters:[[3] 1001, 101]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorSumForLongTest initTest
+INFO: Was started test [public void com.epam.calculationtask.unittests.CalculatorSumForLongTest.calcLongSumMethodTest(long,long)]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorSumForDoubleTest initTest
+INFO: Was started test [public void com.epam.calculationtask.unittests.CalculatorSumForDoubleTest.calcDoubleSumMethodTest(double,double)]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorSumForLongTest tearDownTest
+INFO: Was finished test [public void com.epam.calculationtask.unittests.CalculatorSumForLongTest.calcLongSumMethodTest(long,long)] with parameters:[[4] -9999, -1]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorSumForDoubleTest tearDownTest
+INFO: Was finished test [public void com.epam.calculationtask.unittests.CalculatorSumForDoubleTest.calcDoubleSumMethodTest(double,double)] with parameters:[[4] -9999.99, -1]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorSumForDoubleTest initTest
+INFO: Was started test [public void com.epam.calculationtask.unittests.CalculatorSumForDoubleTest.calcDoubleSumMethodTest(double,double)]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorSumForDoubleTest tearDownTest
+INFO: Was finished test [public void com.epam.calculationtask.unittests.CalculatorSumForDoubleTest.calcDoubleSumMethodTest(double,double)] with parameters:[[5] 0, -3]
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.293 s - in com.epam.calculationtask.unittests.CalculatorSumForLongTest
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.293 s - in com.epam.calculationtask.unittests.CalculatorSumForDoubleTest
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorTangentTest initTest
+INFO: Was started test [CalculatorTangentTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorTangentTest.calcDoubleTangentMethodTest(double)]]
+янв. 26, 2023 2:30:45 PM com.epam.calculationtask.unittests.CalculatorMultiplicationForDoubleTest initTest
+INFO: Was started test [CalculatorMultiplicationForDoubleTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorMultiplicationForDoubleTest.calcDoubleMultiplicationMethodTest(double,double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorSubtractionForDoubleTest tearDownTest
+INFO: Was finished test [CalculatorSubtractionForDoubleTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorSubtractionForDoubleTest.subtractionCalsForDoubleTest(double,double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorMultiplicationForDoubleTest tearDownTest
+INFO: Was finished test [CalculatorMultiplicationForDoubleTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorMultiplicationForDoubleTest.calcDoubleMultiplicationMethodTest(double,double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorSubtractionForDoubleTest initTest
+INFO: Was started test [CalculatorSubtractionForDoubleTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorSubtractionForDoubleTest.subtractionCalsForDoubleTest(double,double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorMultiplicationForLongTest tearDownTest
+INFO: Was finished test [CalculatorMultiplicationForLongTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorMultiplicationForLongTest.calcLongMultiplicationMethodTest(long,long)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorPowerOfANumberTest initTest
+INFO: Was started test [CalculatorPowerOfANumberTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorPowerOfANumberTest.calcDoublePowerOfNumberMethodTest(double,double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorDivideForDoubleTypeTest tearDownTest
+INFO: Was finished test [CalculatorDivideForDoubleTypeTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorDivideForDoubleTypeTest.calcDoubleDivideMethodTest(double,double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorSubtractionForLongTest tearDownTest
+INFO: Was finished test [CalculatorSubtractionForLongTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorSubtractionForLongTest.subtractionCalsForLongTest(long,long)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorNegativeValueVerificationTest tearDownTest
+INFO: Was finished test [CalculatorNegativeValueVerificationTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorNegativeValueVerificationTest.calcLongIsNegativeValueMethodTest(long)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorMultiplicationForLongTest initTest
+INFO: Was started test [CalculatorMultiplicationForLongTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorMultiplicationForLongTest.calcLongMultiplicationMethodTest(long,long)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorSquareRootOfANumberTest tearDownTest
+INFO: Was finished test [CalculatorSquareRootOfANumberTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorSquareRootOfANumberTest.calcDoubleSquareMethodTest(double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorNegativeValueVerificationTest initTest
+INFO: Was started test [CalculatorNegativeValueVerificationTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorNegativeValueVerificationTest.calcLongIsNegativeValueMethodTest(long)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorSineTest tearDownTest
+INFO: Was finished test [CalculatorSineTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorSineTest.calcDoubleSineMethodTest(double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorSquareRootOfANumberTest initTest
+INFO: Was started test [CalculatorSquareRootOfANumberTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorSquareRootOfANumberTest.calcDoubleSquareMethodTest(double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorNegativeValueVerificationTest tearDownTest
+INFO: Was finished test [CalculatorNegativeValueVerificationTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorNegativeValueVerificationTest.calcLongIsNegativeValueMethodTest2(long)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorNegativeValueVerificationTest tearDownTest
+INFO: Was finished test [CalculatorNegativeValueVerificationTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorNegativeValueVerificationTest.calcLongIsNegativeValueMethodTest2(long)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorSubtractionForLongTest initTest
+INFO: Was started test [CalculatorSubtractionForLongTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorSubtractionForLongTest.subtractionCalsForLongTest(long,long)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorCotangentTest tearDownTest
+INFO: Was finished test [CalculatorCotangentTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorCotangentTest.calcDoubleCotangentMethodTest(double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorDivideForLongTypeTest tearDownTest
+INFO: Was finished test [CalculatorDivideForLongTypeTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorDivideForLongTypeTest.calcLongDivideMethodTest(long,long)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorSineTest tearDownTest
+INFO: Was finished test [CalculatorSineTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorSineTest.calcDoubleSineMethodTest(double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorDivideForDoubleTypeTest initTest
+INFO: Was started test [CalculatorDivideForDoubleTypeTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorDivideForDoubleTypeTest.calcDoubleDivideMethodTest(double,double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorDivideForLongTypeTest initTest
+INFO: Was started test [CalculatorDivideForLongTypeTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorDivideForLongTypeTest.calcLongDivideMethodTest(long,long)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculationNegativeTest tearDownTest
+INFO: Was finished test [CalculationNegativeTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculationNegativeTest.checkDoubleTechnicalBoundaryTest2(double,double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorCotangentTest initTest
+INFO: Was started test [CalculatorCotangentTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorCotangentTest.calcDoubleCotangentMethodTest(double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorSquareRootOfANumberTest tearDownTest
+INFO: Was finished test [CalculatorSquareRootOfANumberTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorSquareRootOfANumberTest.calcDoubleSquareMethodTest(double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorPositiveValueVerificationTest tearDownTest
+INFO: Was finished test [CalculatorPositiveValueVerificationTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorPositiveValueVerificationTest.calcLongIsPositiveValueMethodTest2(long)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorCosineTest tearDownTest
+INFO: Was finished test [CalculatorCosineTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorCosineTest.calcDoubleCosineMethodTest(double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorPositiveValueVerificationTest initTest
+INFO: Was started test [CalculatorPositiveValueVerificationTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorPositiveValueVerificationTest.calcLongIsPositiveValueMethodTest(long)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculationNegativeTest tearDownTest
+INFO: Was finished test [CalculationNegativeTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculationNegativeTest.calcDoubleDivideByZeroExceptionTest(double,double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorPositiveValueVerificationTest tearDownTest
+INFO: Was finished test [CalculatorPositiveValueVerificationTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorPositiveValueVerificationTest.calcLongIsPositiveValueMethodTest2(long)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorTangentTest tearDownTest
+INFO: Was finished test [CalculatorTangentTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorTangentTest.calcDoubleTangentMethodTest(double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorTangentTest tearDownTest
+INFO: Was finished test [CalculatorTangentTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorTangentTest.calcDoubleTangentMethodTest(double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculationNegativeTest tearDownTest
+INFO: Was finished test [CalculationNegativeTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculationNegativeTest.checkDoubleTechnicalBoundaryTest(double,double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorCosineTest tearDownTest
+INFO: Was finished test [CalculatorCosineTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorCosineTest.calcDoubleCosineMethodTest(double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorNegativeValueVerificationTest initTest
+INFO: Was started test [CalculatorNegativeValueVerificationTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorNegativeValueVerificationTest.calcLongIsNegativeValueMethodTest(long)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorNegativeValueVerificationTest tearDownTest
+INFO: Was finished test [CalculatorNegativeValueVerificationTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorNegativeValueVerificationTest.calcLongIsNegativeValueMethodTest2(long)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorPowerOfANumberTest tearDownTest
+INFO: Was finished test [CalculatorPowerOfANumberTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorPowerOfANumberTest.calcDoublePowerOfNumberMethodTest(double,double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorCotangentTest tearDownTest
+INFO: Was finished test [CalculatorCotangentTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorCotangentTest.calcDoubleCotangentMethodTest(double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorPowerOfANumberTest tearDownTest
+INFO: Was finished test [CalculatorPowerOfANumberTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorPowerOfANumberTest.calcDoublePowerOfNumberMethodTest(double,double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorPositiveValueVerificationTest tearDownTest
+INFO: Was finished test [CalculatorPositiveValueVerificationTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorPositiveValueVerificationTest.calcLongIsPositiveValueMethodTest2(long)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorCotangentTest initTest
+INFO: Was started test [CalculatorCotangentTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorCotangentTest.calcDoubleCotangentMethodTest(double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorPositiveValueVerificationTest tearDownTest
+INFO: Was finished test [CalculatorPositiveValueVerificationTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorPositiveValueVerificationTest.calcLongIsPositiveValueMethodTest2(long)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorPositiveValueVerificationTest tearDownTest
+INFO: Was finished test [CalculatorPositiveValueVerificationTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorPositiveValueVerificationTest.calcLongIsPositiveValueMethodTest2(long)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorPositiveValueVerificationTest tearDownTest
+INFO: Was finished test [CalculatorPositiveValueVerificationTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorPositiveValueVerificationTest.calcLongIsPositiveValueMethodTest(long)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorSquareRootOfANumberTest tearDownTest
+INFO: Was finished test [CalculatorSquareRootOfANumberTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorSquareRootOfANumberTest.calcDoubleSquareMethodTest(double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorNegativeValueVerificationTest tearDownTest
+INFO: Was finished test [CalculatorNegativeValueVerificationTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorNegativeValueVerificationTest.calcLongIsNegativeValueMethodTest(long)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorPowerOfANumberTest tearDownTest
+INFO: Was finished test [CalculatorPowerOfANumberTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorPowerOfANumberTest.calcDoublePowerOfNumberMethodTest(double,double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorDivideForLongTypeTest initTest
+INFO: Was started test [CalculatorDivideForLongTypeTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorDivideForLongTypeTest.calcLongDivideMethodTest(long,long)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorSquareRootOfANumberTest initTest
+INFO: Was started test [CalculatorSquareRootOfANumberTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorSquareRootOfANumberTest.calcDoubleSquareMethodTest(double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorTangentTest initTest
+INFO: Was started test [CalculatorTangentTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorTangentTest.calcDoubleTangentMethodTest(double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorMultiplicationForLongTest initTest
+INFO: Was started test [CalculatorMultiplicationForLongTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorMultiplicationForLongTest.calcLongMultiplicationMethodTest(long,long)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorMultiplicationForLongTest initTest
+INFO: Was started test [CalculatorMultiplicationForLongTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorMultiplicationForLongTest.calcLongMultiplicationMethodTest(long,long)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorSubtractionForDoubleTest initTest
+INFO: Was started test [CalculatorSubtractionForDoubleTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorSubtractionForDoubleTest.subtractionCalsForDoubleTest(double,double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorPowerOfANumberTest initTest
+INFO: Was started test [CalculatorPowerOfANumberTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorPowerOfANumberTest.calcDoublePowerOfNumberMethodTest(double,double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculationNegativeTest tearDownTest
+INFO: Was finished test [CalculationNegativeTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculationNegativeTest.calcLongDivideByZeroExceptionTest(long,long)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorSubtractionForLongTest initTest
+INFO: Was started test [CalculatorSubtractionForLongTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorSubtractionForLongTest.subtractionCalsForLongTest(long,long)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorPowerOfANumberTest initTest
+INFO: Was started test [CalculatorPowerOfANumberTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorPowerOfANumberTest.calcDoublePowerOfNumberMethodTest(double,double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorCosineTest initTest
+INFO: Was started test [CalculatorCosineTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorCosineTest.calcDoubleCosineMethodTest(double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorCosineTest tearDownTest
+INFO: Was finished test [CalculatorCosineTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorCosineTest.calcDoubleCosineMethodTest(double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorCotangentTest initTest
+INFO: Was started test [CalculatorCotangentTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorCotangentTest.calcDoubleCotangentMethodTest(double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorCosineTest initTest
+INFO: Was started test [CalculatorCosineTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorCosineTest.calcDoubleCosineMethodTest(double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorMultiplicationForDoubleTest initTest
+INFO: Was started test [CalculatorMultiplicationForDoubleTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorMultiplicationForDoubleTest.calcDoubleMultiplicationMethodTest(double,double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorTangentTest initTest
+INFO: Was started test [CalculatorTangentTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorTangentTest.calcDoubleTangentMethodTest(double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorSubtractionForLongTest initTest
+INFO: Was started test [CalculatorSubtractionForLongTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorSubtractionForLongTest.subtractionCalsForLongTest(long,long)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorSquareRootOfANumberTest initTest
+INFO: Was started test [CalculatorSquareRootOfANumberTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorSquareRootOfANumberTest.calcDoubleSquareMethodTest(double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorTangentTest initTest
+INFO: Was started test [CalculatorTangentTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorTangentTest.calcDoubleTangentMethodTest(double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorCotangentTest initTest
+INFO: Was started test [CalculatorCotangentTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorCotangentTest.calcDoubleCotangentMethodTest(double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorCosineTest initTest
+INFO: Was started test [CalculatorCosineTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorCosineTest.calcDoubleCosineMethodTest(double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorSineTest initTest
+INFO: Was started test [CalculatorSineTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorSineTest.calcDoubleSineMethodTest(double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorNegativeValueVerificationTest initTest
+INFO: Was started test [CalculatorNegativeValueVerificationTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorNegativeValueVerificationTest.calcLongIsNegativeValueMethodTest(long)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorSineTest initTest
+INFO: Was started test [CalculatorSineTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorSineTest.calcDoubleSineMethodTest(double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorSquareRootOfANumberTest initTest
+INFO: Was started test [CalculatorSquareRootOfANumberTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorSquareRootOfANumberTest.calcDoubleSquareMethodTest(double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorPositiveValueVerificationTest tearDownTest
+INFO: Was finished test [CalculatorPositiveValueVerificationTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorPositiveValueVerificationTest.calcLongIsPositiveValueMethodTest(long)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorCotangentTest tearDownTest
+INFO: Was finished test [CalculatorCotangentTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorCotangentTest.calcDoubleCotangentMethodTest(double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculationNegativeTest tearDownTest
+INFO: Was finished test [CalculationNegativeTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculationNegativeTest.calcLongMethodWithTechnicalBoundaryTest(long,long)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorCosineTest tearDownTest
+INFO: Was finished test [CalculatorCosineTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorCosineTest.calcDoubleCosineMethodTest(double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorNegativeValueVerificationTest tearDownTest
+INFO: Was finished test [CalculatorNegativeValueVerificationTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorNegativeValueVerificationTest.calcLongIsNegativeValueMethodTest2(long)]]
+[ERROR] Tests run: 41, Failures: 11, Errors: 0, Skipped: 0, Time elapsed: 2.277 s <<< FAILURE! - in com.epam.calculationtask.unittests.CalculationNegativeTest
+[ERROR] com.epam.calculationtask.unittests.CalculationNegativeTest.calcDoubleDivideByZeroExceptionTest(double, double)[1]  Time elapsed: 2.064 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected java.lang.ArithmeticException to be thrown, but nothing was thrown.
+        at com.epam.calculationtask.unittests.CalculationNegativeTest.calcDoubleDivideByZeroExceptionTest(CalculationNegativeTest.java:82)
+
+[ERROR] com.epam.calculationtask.unittests.CalculationNegativeTest.checkDoubleTechnicalBoundaryTest2(double, double)[1]  Time elapsed: 2.058 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: ***** Technical Boundary  was exceeded: -Infinity ***** ==> expected: <false> but was: <true>
+        at com.epam.calculationtask.unittests.CalculationNegativeTest.checkDoubleTechnicalBoundaryTest2(CalculationNegativeTest.java:65)
+
+[ERROR] com.epam.calculationtask.unittests.CalculatorCosineTest.calcDoubleCosineMethodTest(double)[4]  Time elapsed: 2.114 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Wrong work of Method - check the formula in this method! ==> expected: <1.0> but was: <0.0>
+        at com.epam.calculationtask.unittests.CalculatorCosineTest.calcDoubleCosineMethodTest(CalculatorCosineTest.java:48)
+
+[ERROR] com.epam.calculationtask.unittests.CalculatorTangentTest.calcDoubleTangentMethodTest(double)[1]  Time elapsed: 2.118 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Wrong work of Method - check the formula in this method! ==> expected: <-2.244075781526737> but was: <1.0>
+        at com.epam.calculationtask.unittests.CalculatorTangentTest.calcDoubleTangentMethodTest(CalculatorTangentTest.java:48)
+
+[ERROR] com.epam.calculationtask.unittests.CalculatorTangentTest.calcDoubleTangentMethodTest(double)[2]  Time elapsed: 2.118 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Wrong work of Method - check the formula in this method! ==> expected: <0.03160316861902303> but was: <1.0>
+        at com.epam.calculationtask.unittests.CalculatorTangentTest.calcDoubleTangentMethodTest(CalculatorTangentTest.java:48)
+
+[ERROR] com.epam.calculationtask.unittests.CalculationNegativeTest.checkDoubleTechnicalBoundaryTest(double, double)[1]  Time elapsed: 2.067 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: ***** Technical Boundary  was exceeded: Infinity ***** ==> expected: <false> but was: <true>
+        at com.epam.calculationtask.unittests.CalculationNegativeTest.checkDoubleTechnicalBoundaryTest(CalculationNegativeTest.java:53)
+
+[ERROR] com.epam.calculationtask.unittests.CalculatorCosineTest.calcDoubleCosineMethodTest(double)[1]  Time elapsed: 2.119 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Wrong work of Method - check the formula in this method! ==> expected: <-0.4070332066592655> but was: <0.9134133613412252>
+        at com.epam.calculationtask.unittests.CalculatorCosineTest.calcDoubleCosineMethodTest(CalculatorCosineTest.java:48)
+
+[ERROR] com.epam.calculationtask.unittests.CalculationNegativeTest.calcLongDivideByZeroExceptionTest(long, long)[1]  Time elapsed: 2.086 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown ==> expected: <java.lang.ArithmeticException> but was: <java.lang.NumberFormatException>
+        at com.epam.calculationtask.unittests.CalculationNegativeTest.calcLongDivideByZeroExceptionTest(CalculationNegativeTest.java:74)
+Caused by: java.lang.NumberFormatException: Attempt to divide by zero
+        at com.epam.calculationtask.unittests.CalculationNegativeTest.lambda$calcLongDivideByZeroExceptionTest$2(CalculationNegativeTest.java:74)
+        at com.epam.calculationtask.unittests.CalculationNegativeTest.calcLongDivideByZeroExceptionTest(CalculationNegativeTest.java:74)
+
+[ERROR] com.epam.calculationtask.unittests.CalculatorCosineTest.calcDoubleCosineMethodTest(double)[2]  Time elapsed: 2.142 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Wrong work of Method - check the formula in this method! ==> expected: <-0.9988285931772186> but was: <0.04838844336841415>
+        at com.epam.calculationtask.unittests.CalculatorCosineTest.calcDoubleCosineMethodTest(CalculatorCosineTest.java:48)
+
+[ERROR] com.epam.calculationtask.unittests.CalculationNegativeTest.calcLongMethodWithTechnicalBoundaryTest(long, long)[1]  Time elapsed: 2.1 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Technical Boundary  was exceeded: -9223372036854775808 ==> expected: <false> but was: <true>
+        at com.epam.calculationtask.unittests.CalculationNegativeTest.calcLongMethodWithTechnicalBoundaryTest(CalculationNegativeTest.java:91)
+
+[ERROR] com.epam.calculationtask.unittests.CalculatorCosineTest.calcDoubleCosineMethodTest(double)[3]  Time elapsed: 2.154 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Wrong work of Method - check the formula in this method! ==> expected: <0.28366218546322625> but was: <-0.9589242746631385>
+        at com.epam.calculationtask.unittests.CalculatorCosineTest.calcDoubleCosineMethodTest(CalculatorCosineTest.java:48)
+
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorSineTest initTest
+INFO: Was started test [CalculatorSineTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorSineTest.calcDoubleSineMethodTest(double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorSineTest initTest
+INFO: Was started test [CalculatorSineTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorSineTest.calcDoubleSineMethodTest(double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorPositiveValueVerificationTest tearDownTest
+INFO: Was finished test [CalculatorPositiveValueVerificationTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorPositiveValueVerificationTest.calcLongIsPositiveValueMethodTest(long)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorPowerOfANumberTest initTest
+INFO: Was started test [CalculatorPowerOfANumberTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorPowerOfANumberTest.calcDoublePowerOfNumberMethodTest(double,double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorTangentTest initTest
+INFO: Was started test [CalculatorTangentTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorTangentTest.calcDoubleTangentMethodTest(double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorSubtractionForDoubleTest initTest
+INFO: Was started test [CalculatorSubtractionForDoubleTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorSubtractionForDoubleTest.subtractionCalsForDoubleTest(double,double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorDivideForLongTypeTest initTest
+INFO: Was started test [CalculatorDivideForLongTypeTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorDivideForLongTypeTest.calcLongDivideMethodTest(long,long)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorSineTest initTest
+INFO: Was started test [CalculatorSineTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorSineTest.calcDoubleSineMethodTest(double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorMultiplicationForDoubleTest initTest
+INFO: Was started test [CalculatorMultiplicationForDoubleTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorMultiplicationForDoubleTest.calcDoubleMultiplicationMethodTest(double,double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorDivideForDoubleTypeTest initTest
+INFO: Was started test [CalculatorDivideForDoubleTypeTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorDivideForDoubleTypeTest.calcDoubleDivideMethodTest(double,double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorPowerOfANumberTest initTest
+INFO: Was started test [CalculatorPowerOfANumberTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorPowerOfANumberTest.calcDoublePowerOfNumberMethodTest(double,double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorDivideForDoubleTypeTest initTest
+INFO: Was started test [CalculatorDivideForDoubleTypeTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorDivideForDoubleTypeTest.calcDoubleDivideMethodTest(double,double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorPowerOfANumberTest initTest
+INFO: Was started test [CalculatorPowerOfANumberTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorPowerOfANumberTest.calcDoublePowerOfNumberMethodTest(double,double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorSubtractionForDoubleTest initTest
+INFO: Was started test [CalculatorSubtractionForDoubleTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorSubtractionForDoubleTest.subtractionCalsForDoubleTest(double,double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorMultiplicationForDoubleTest initTest
+INFO: Was started test [CalculatorMultiplicationForDoubleTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorMultiplicationForDoubleTest.calcDoubleMultiplicationMethodTest(double,double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorMultiplicationForDoubleTest tearDownTest
+INFO: Was finished test [CalculatorMultiplicationForDoubleTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorMultiplicationForDoubleTest.calcDoubleMultiplicationMethodTest(double,double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorTangentTest tearDownTest
+INFO: Was finished test [CalculatorTangentTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorTangentTest.calcDoubleTangentMethodTest(double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorMultiplicationForDoubleTest initTest
+INFO: Was started test [CalculatorMultiplicationForDoubleTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorMultiplicationForDoubleTest.calcDoubleMultiplicationMethodTest(double,double)]]
+янв. 26, 2023 2:30:47 PM com.epam.calculationtask.unittests.CalculatorMultiplicationForDoubleTest initTest
+INFO: Was started test [CalculatorMultiplicationForDoubleTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorMultiplicationForDoubleTest.calcDoubleMultiplicationMethodTest(double,double)]]
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorPowerOfANumberTest tearDownTest
+INFO: Was finished test [CalculatorPowerOfANumberTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorPowerOfANumberTest.calcDoublePowerOfNumberMethodTest(double,double)]]
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorSubtractionForDoubleTest tearDownTest
+INFO: Was finished test [CalculatorSubtractionForDoubleTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorSubtractionForDoubleTest.subtractionCalsForDoubleTest(double,double)]]
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorMultiplicationForDoubleTest initTest
+INFO: Was started test [CalculatorMultiplicationForDoubleTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorMultiplicationForDoubleTest.calcDoubleMultiplicationMethodTest(double,double)]]
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorMultiplicationForLongTest tearDownTest
+INFO: Was finished test [CalculatorMultiplicationForLongTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorMultiplicationForLongTest.calcLongMultiplicationMethodTest(long,long)]]
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorNegativeValueVerificationTest tearDownTest
+INFO: Was finished test [CalculatorNegativeValueVerificationTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorNegativeValueVerificationTest.calcLongIsNegativeValueMethodTest(long)]]
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorSquareRootOfANumberTest tearDownTest
+INFO: Was finished test [CalculatorSquareRootOfANumberTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorSquareRootOfANumberTest.calcDoubleSquareMethodTest(double)]]
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorMultiplicationForLongTest initTest
+INFO: Was started test [CalculatorMultiplicationForLongTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorMultiplicationForLongTest.calcLongMultiplicationMethodTest(long,long)]]
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorSubtractionForLongTest tearDownTest
+INFO: Was finished test [CalculatorSubtractionForLongTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorSubtractionForLongTest.subtractionCalsForLongTest(long,long)]]
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorMultiplicationForDoubleTest initTest
+INFO: Was started test [CalculatorMultiplicationForDoubleTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorMultiplicationForDoubleTest.calcDoubleMultiplicationMethodTest(double,double)]]
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorDivideForDoubleTypeTest tearDownTest
+INFO: Was finished test [CalculatorDivideForDoubleTypeTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorDivideForDoubleTypeTest.calcDoubleDivideMethodTest(double,double)]]
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorMultiplicationForLongTest initTest
+INFO: Was started test [CalculatorMultiplicationForLongTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorMultiplicationForLongTest.calcLongMultiplicationMethodTest(long,long)]]
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorDivideForLongTypeTest tearDownTest
+INFO: Was finished test [CalculatorDivideForLongTypeTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorDivideForLongTypeTest.calcLongDivideMethodTest(long,long)]]
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorMultiplicationForLongTest initTest
+INFO: Was started test [CalculatorMultiplicationForLongTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorMultiplicationForLongTest.calcLongMultiplicationMethodTest(long,long)]]
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorPositiveValueVerificationTest tearDownTest
+INFO: Was finished test [CalculatorPositiveValueVerificationTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorPositiveValueVerificationTest.calcLongIsPositiveValueMethodTest(long)]]
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorCotangentTest tearDownTest
+INFO: Was finished test [CalculatorCotangentTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorCotangentTest.calcDoubleCotangentMethodTest(double)]]
+[ERROR] Tests run: 13, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 4.24 s <<< FAILURE! - in com.epam.calculationtask.unittests.CalculatorPositiveValueVerificationTest
+[ERROR] com.epam.calculationtask.unittests.CalculatorTangentTest.calcDoubleTangentMethodTest(double)[3]  Time elapsed: 2.013 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Wrong work of Method - check the formula in this method! ==> expected: <-3.380515006246586> but was: <1.0>
+        at com.epam.calculationtask.unittests.CalculatorTangentTest.calcDoubleTangentMethodTest(CalculatorTangentTest.java:48)
+
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorMultiplicationForLongTest initTest
+INFO: Was started test [CalculatorMultiplicationForLongTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorMultiplicationForLongTest.calcLongMultiplicationMethodTest(long,long)]]
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorMultiplicationForLongTest initTest
+INFO: Was started test [CalculatorMultiplicationForLongTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorMultiplicationForLongTest.calcLongMultiplicationMethodTest(long,long)]]
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorCotangentTest tearDownTest
+INFO: Was finished test [CalculatorCotangentTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorCotangentTest.calcDoubleCotangentMethodTest(double)]]
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorNegativeValueVerificationTest tearDownTest
+INFO: Was finished test [CalculatorNegativeValueVerificationTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorNegativeValueVerificationTest.calcLongIsNegativeValueMethodTest(long)]]
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorSquareRootOfANumberTest tearDownTest
+INFO: Was finished test [CalculatorSquareRootOfANumberTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorSquareRootOfANumberTest.calcDoubleSquareMethodTest(double)]]
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorCosineTest tearDownTest
+INFO: Was finished test [CalculatorCosineTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorCosineTest.calcDoubleCosineMethodTest(double)]]
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorPowerOfANumberTest tearDownTest
+INFO: Was finished test [CalculatorPowerOfANumberTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorPowerOfANumberTest.calcDoublePowerOfNumberMethodTest(double,double)]]
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorTangentTest tearDownTest
+INFO: Was finished test [CalculatorTangentTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorTangentTest.calcDoubleTangentMethodTest(double)]]
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorMultiplicationForLongTest tearDownTest
+INFO: Was finished test [CalculatorMultiplicationForLongTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorMultiplicationForLongTest.calcLongMultiplicationMethodTest(long,long)]]
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorDivideForLongTypeTest tearDownTest
+INFO: Was finished test [CalculatorDivideForLongTypeTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorDivideForLongTypeTest.calcLongDivideMethodTest(long,long)]]
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorCotangentTest tearDownTest
+INFO: Was finished test [CalculatorCotangentTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorCotangentTest.calcDoubleCotangentMethodTest(double)]]
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorSubtractionForLongTest tearDownTest
+INFO: Was finished test [CalculatorSubtractionForLongTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorSubtractionForLongTest.subtractionCalsForLongTest(long,long)]]
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorMultiplicationForLongTest tearDownTest
+INFO: Was finished test [CalculatorMultiplicationForLongTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorMultiplicationForLongTest.calcLongMultiplicationMethodTest(long,long)]]
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorSubtractionForDoubleTest tearDownTest
+INFO: Was finished test [CalculatorSubtractionForDoubleTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorSubtractionForDoubleTest.subtractionCalsForDoubleTest(double,double)]]
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorPowerOfANumberTest tearDownTest
+INFO: Was finished test [CalculatorPowerOfANumberTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorPowerOfANumberTest.calcDoublePowerOfNumberMethodTest(double,double)]]
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorNegativeValueVerificationTest tearDownTest
+INFO: Was finished test [CalculatorNegativeValueVerificationTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorNegativeValueVerificationTest.calcLongIsNegativeValueMethodTest(long)]]
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorCosineTest tearDownTest
+INFO: Was finished test [CalculatorCosineTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorCosineTest.calcDoubleCosineMethodTest(double)]]
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorSineTest tearDownTest
+INFO: Was finished test [CalculatorSineTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorSineTest.calcDoubleSineMethodTest(double)]]
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorSineTest tearDownTest
+INFO: Was finished test [CalculatorSineTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorSineTest.calcDoubleSineMethodTest(double)]]
+[ERROR] Tests run: 16, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 4.283 s <<< FAILURE! - in com.epam.calculationtask.unittests.CalculatorNegativeValueVerificationTest
+[ERROR] com.epam.calculationtask.unittests.CalculatorCosineTest.calcDoubleCosineMethodTest(double)[7]  Time elapsed: 2.021 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Wrong work of Method - check the formula in this method! ==> expected: <-0.9999876894265599> but was: <0.004961954789184062>
+        at com.epam.calculationtask.unittests.CalculatorCosineTest.calcDoubleCosineMethodTest(CalculatorCosineTest.java:48)
+
+[ERROR] com.epam.calculationtask.unittests.CalculatorTangentTest.calcDoubleTangentMethodTest(double)[6]  Time elapsed: 2.016 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Wrong work of Method - check the formula in this method! ==> expected: <4.9E-324> but was: <1.0>
+        at com.epam.calculationtask.unittests.CalculatorTangentTest.calcDoubleTangentMethodTest(CalculatorTangentTest.java:48)
+
+[ERROR] com.epam.calculationtask.unittests.CalculatorCosineTest.calcDoubleCosineMethodTest(double)[6]  Time elapsed: 2.039 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Wrong work of Method - check the formula in this method! ==> expected: <1.0> but was: <4.9E-324>
+        at com.epam.calculationtask.unittests.CalculatorCosineTest.calcDoubleCosineMethodTest(CalculatorCosineTest.java:48)
+
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorSubtractionForLongTest tearDownTest
+INFO: Was finished test [CalculatorSubtractionForLongTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorSubtractionForLongTest.subtractionCalsForLongTest(long,long)]]
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorSineTest tearDownTest
+INFO: Was finished test [CalculatorSineTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorSineTest.calcDoubleSineMethodTest(double)]]
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorSquareRootOfANumberTest tearDownTest
+INFO: Was finished test [CalculatorSquareRootOfANumberTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorSquareRootOfANumberTest.calcDoubleSquareMethodTest(double)]]
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorMultiplicationForDoubleTest tearDownTest
+INFO: Was finished test [CalculatorMultiplicationForDoubleTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorMultiplicationForDoubleTest.calcDoubleMultiplicationMethodTest(double,double)]]
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.283 s - in com.epam.calculationtask.unittests.CalculatorSubtractionForLongTest
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorTangentTest tearDownTest
+INFO: Was finished test [CalculatorTangentTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorTangentTest.calcDoubleTangentMethodTest(double)]]
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorCosineTest tearDownTest
+INFO: Was finished test [CalculatorCosineTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorCosineTest.calcDoubleCosineMethodTest(double)]]
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorSineTest tearDownTest
+INFO: Was finished test [CalculatorSineTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorSineTest.calcDoubleSineMethodTest(double)]]
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorSquareRootOfANumberTest tearDownTest
+INFO: Was finished test [CalculatorSquareRootOfANumberTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorSquareRootOfANumberTest.calcDoubleSquareMethodTest(double)]]
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorCotangentTest tearDownTest
+INFO: Was finished test [CalculatorCotangentTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorCotangentTest.calcDoubleCotangentMethodTest(double)]]
+[ERROR] Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 4.287 s <<< FAILURE! - in com.epam.calculationtask.unittests.CalculatorCosineTest
+[ERROR] com.epam.calculationtask.unittests.CalculatorTangentTest.calcDoubleTangentMethodTest(double)[4]  Time elapsed: 2.044 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Wrong work of Method - check the formula in this method! ==> expected: <0.0> but was: <NaN>
+        at com.epam.calculationtask.unittests.CalculatorTangentTest.calcDoubleTangentMethodTest(CalculatorTangentTest.java:48)
+
+[ERROR] com.epam.calculationtask.unittests.CalculatorCosineTest.calcDoubleCosineMethodTest(double)[5]  Time elapsed: 2.046 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Wrong work of Method - check the formula in this method! ==> expected: <-0.7596879128588213> but was: <-0.6502878401571168>
+        at com.epam.calculationtask.unittests.CalculatorCosineTest.calcDoubleCosineMethodTest(CalculatorCosineTest.java:48)
+
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorTangentTest tearDownTest
+INFO: Was finished test [CalculatorTangentTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorTangentTest.calcDoubleTangentMethodTest(double)]]
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorPowerOfANumberTest tearDownTest
+INFO: Was finished test [CalculatorPowerOfANumberTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorPowerOfANumberTest.calcDoublePowerOfNumberMethodTest(double,double)]]
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.287 s - in com.epam.calculationtask.unittests.CalculatorSquareRootOfANumberTest
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorMultiplicationForDoubleTest tearDownTest
+INFO: Was finished test [CalculatorMultiplicationForDoubleTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorMultiplicationForDoubleTest.calcDoubleMultiplicationMethodTest(double,double)]]
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorTangentTest tearDownTest
+INFO: Was finished test [CalculatorTangentTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorTangentTest.calcDoubleTangentMethodTest(double)]]
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorSubtractionForDoubleTest tearDownTest
+INFO: Was finished test [CalculatorSubtractionForDoubleTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorSubtractionForDoubleTest.subtractionCalsForDoubleTest(double,double)]]
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorSineTest tearDownTest
+INFO: Was finished test [CalculatorSineTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorSineTest.calcDoubleSineMethodTest(double)]]
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorDivideForLongTypeTest tearDownTest
+INFO: Was finished test [CalculatorDivideForLongTypeTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorDivideForLongTypeTest.calcLongDivideMethodTest(long,long)]]
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorDivideForDoubleTypeTest tearDownTest
+INFO: Was finished test [CalculatorDivideForDoubleTypeTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorDivideForDoubleTypeTest.calcDoubleDivideMethodTest(double,double)]]
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorPowerOfANumberTest tearDownTest
+INFO: Was finished test [CalculatorPowerOfANumberTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorPowerOfANumberTest.calcDoublePowerOfNumberMethodTest(double,double)]]
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorPowerOfANumberTest tearDownTest
+INFO: Was finished test [CalculatorPowerOfANumberTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorPowerOfANumberTest.calcDoublePowerOfNumberMethodTest(double,double)]]
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorMultiplicationForDoubleTest tearDownTest
+INFO: Was finished test [CalculatorMultiplicationForDoubleTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorMultiplicationForDoubleTest.calcDoubleMultiplicationMethodTest(double,double)]]
+[ERROR] Tests run: 9, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 4.299 s <<< FAILURE! - in com.epam.calculationtask.unittests.CalculatorDivideForLongTypeTest
+[ERROR] com.epam.calculationtask.unittests.CalculatorTangentTest.calcDoubleTangentMethodTest(double)[5]  Time elapsed: 2.046 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Wrong work of Method - check the formula in this method! ==> expected: <0.8559934009085187> but was: <1.0>
+        at com.epam.calculationtask.unittests.CalculatorTangentTest.calcDoubleTangentMethodTest(CalculatorTangentTest.java:48)
+
+[ERROR] com.epam.calculationtask.unittests.CalculatorTangentTest.calcDoubleTangentMethodTest(double)[7]  Time elapsed: 2.019 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Wrong work of Method - check the formula in this method! ==> expected: <-0.004962015874444895> but was: <1.0>
+        at com.epam.calculationtask.unittests.CalculatorTangentTest.calcDoubleTangentMethodTest(CalculatorTangentTest.java:48)
+
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.299 s - in com.epam.calculationtask.unittests.CalculatorCotangentTest
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorSubtractionForDoubleTest tearDownTest
+INFO: Was finished test [CalculatorSubtractionForDoubleTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorSubtractionForDoubleTest.subtractionCalsForDoubleTest(double,double)]]
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.298 s - in com.epam.calculationtask.unittests.CalculatorSineTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.3 s - in com.epam.calculationtask.unittests.CalculatorPowerOfANumberTest
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorDivideForDoubleTypeTest tearDownTest
+INFO: Was finished test [CalculatorDivideForDoubleTypeTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorDivideForDoubleTypeTest.calcDoubleDivideMethodTest(double,double)]]
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.301 s - in com.epam.calculationtask.unittests.CalculatorDivideForDoubleTypeTest
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.302 s - in com.epam.calculationtask.unittests.CalculatorSubtractionForDoubleTest
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorMultiplicationForDoubleTest tearDownTest
+INFO: Was finished test [CalculatorMultiplicationForDoubleTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorMultiplicationForDoubleTest.calcDoubleMultiplicationMethodTest(double,double)]]
+янв. 26, 2023 2:30:49 PM com.epam.calculationtask.unittests.CalculatorMultiplicationForDoubleTest tearDownTest
+INFO: Was finished test [CalculatorMultiplicationForDoubleTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorMultiplicationForDoubleTest.calcDoubleMultiplicationMethodTest(double,double)]]
+янв. 26, 2023 2:30:51 PM com.epam.calculationtask.unittests.CalculatorMultiplicationForLongTest tearDownTest
+INFO: Was finished test [CalculatorMultiplicationForLongTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorMultiplicationForLongTest.calcLongMultiplicationMethodTest(long,long)]]
+янв. 26, 2023 2:30:51 PM com.epam.calculationtask.unittests.CalculatorMultiplicationForDoubleTest tearDownTest
+INFO: Was finished test [CalculatorMultiplicationForDoubleTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorMultiplicationForDoubleTest.calcDoubleMultiplicationMethodTest(double,double)]]
+янв. 26, 2023 2:30:51 PM com.epam.calculationtask.unittests.CalculatorMultiplicationForLongTest tearDownTest
+INFO: Was finished test [CalculatorMultiplicationForLongTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorMultiplicationForLongTest.calcLongMultiplicationMethodTest(long,long)]]
+янв. 26, 2023 2:30:51 PM com.epam.calculationtask.unittests.CalculatorMultiplicationForLongTest tearDownTest
+INFO: Was finished test [CalculatorMultiplicationForLongTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorMultiplicationForLongTest.calcLongMultiplicationMethodTest(long,long)]]
+янв. 26, 2023 2:30:51 PM com.epam.calculationtask.unittests.CalculatorMultiplicationForLongTest tearDownTest
+INFO: Was finished test [CalculatorMultiplicationForLongTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorMultiplicationForLongTest.calcLongMultiplicationMethodTest(long,long)]]
+янв. 26, 2023 2:30:51 PM com.epam.calculationtask.unittests.CalculatorMultiplicationForDoubleTest tearDownTest
+INFO: Was finished test [CalculatorMultiplicationForDoubleTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorMultiplicationForDoubleTest.calcDoubleMultiplicationMethodTest(double,double)]]
+янв. 26, 2023 2:30:51 PM com.epam.calculationtask.unittests.CalculatorMultiplicationForLongTest tearDownTest
+INFO: Was finished test [CalculatorMultiplicationForLongTest] with method:[Optional[public void com.epam.calculationtask.unittests.CalculatorMultiplicationForLongTest.calcLongMultiplicationMethodTest(long,long)]]
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.248 s - in com.epam.calculationtask.unittests.CalculatorMultiplicationForDoubleTest
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.249 s - in com.epam.calculationtask.unittests.CalculatorMultiplicationForLongTest
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.248 s - in com.epam.calculationtask.unittests.CalculatorTangentTest
+[INFO] 
+[INFO] Results:
+[INFO]
+[ERROR] Failures: 
+[ERROR]   CalculationNegativeTest.calcDoubleDivideByZeroExceptionTest:82 Expected java.lang.ArithmeticException to be thrown, but nothing was thrown.
+[ERROR]   CalculationNegativeTest.calcLongDivideByZeroExceptionTest:74 Unexpected exception type thrown ==> expected: <java.lang.ArithmeticException> but was: <java.lang.NumberFormatException>
+[ERROR]   CalculationNegativeTest.calcLongMethodWithTechnicalBoundaryTest:91 Technical Boundary  was exceeded: -9223372036854775808 ==> expected: <false> but was: <true>
+[ERROR]   CalculationNegativeTest.checkDoubleTechnicalBoundaryTest:53 ***** Technical Boundary  was exceeded: Infinity ***** ==> expected: <false> but was: <true>
+[ERROR]   CalculationNegativeTest.checkDoubleTechnicalBoundaryTest2:65 ***** Technical Boundary  was exceeded: -Infinity ***** ==> expected: <false> but was: <true>
+[ERROR]   CalculatorCosineTest.calcDoubleCosineMethodTest:48 Wrong work of Method - check the formula in this method! ==> expected: <-0.4070332066592655> but was: <0.9134133613412252>
+[ERROR]   CalculatorCosineTest.calcDoubleCosineMethodTest:48 Wrong work of Method - check the formula in this method! ==> expected: <-0.9988285931772186> but was: <0.04838844336841415>
+[ERROR]   CalculatorCosineTest.calcDoubleCosineMethodTest:48 Wrong work of Method - check the formula in this method! ==> expected: <0.28366218546322625> but was: <-0.9589242746631385>
+[ERROR]   CalculatorCosineTest.calcDoubleCosineMethodTest:48 Wrong work of Method - check the formula in this method! ==> expected: <1.0> but was: <0.0>
+[ERROR]   CalculatorCosineTest.calcDoubleCosineMethodTest:48 Wrong work of Method - check the formula in this method! ==> expected: <-0.7596879128588213> but was: <-0.6502878401571168>
+[ERROR]   CalculatorCosineTest.calcDoubleCosineMethodTest:48 Wrong work of Method - check the formula in this method! ==> expected: <1.0> but was: <4.9E-324>
+[ERROR]   CalculatorCosineTest.calcDoubleCosineMethodTest:48 Wrong work of Method - check the formula in this method! ==> expected: <-0.9999876894265599> but was: <0.004961954789184062>
+[ERROR]   CalculatorTangentTest.calcDoubleTangentMethodTest:48 Wrong work of Method - check the formula in this method! ==> expected: <-2.244075781526737> but was: <1.0>
+[ERROR]   CalculatorTangentTest.calcDoubleTangentMethodTest:48 Wrong work of Method - check the formula in this method! ==> expected: <0.03160316861902303> but was: <1.0>
+[ERROR]   CalculatorTangentTest.calcDoubleTangentMethodTest:48 Wrong work of Method - check the formula in this method! ==> expected: <-3.380515006246586> but was: <1.0>
+[ERROR]   CalculatorTangentTest.calcDoubleTangentMethodTest:48 Wrong work of Method - check the formula in this method! ==> expected: <0.0> but was: <NaN>
+[ERROR]   CalculatorTangentTest.calcDoubleTangentMethodTest:48 Wrong work of Method - check the formula in this method! ==> expected: <0.8559934009085187> but was: <1.0>
+[ERROR]   CalculatorTangentTest.calcDoubleTangentMethodTest:48 Wrong work of Method - check the formula in this method! ==> expected: <4.9E-324> but was: <1.0>
+[ERROR]   CalculatorTangentTest.calcDoubleTangentMethodTest:48 Wrong work of Method - check the formula in this method! ==> expected: <-0.004962015874444895> but was: <1.0>
+[INFO]
+[ERROR] Tests run: 111, Failures: 19, Errors: 0, Skipped: 0
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  10.678 s
+[INFO] Finished at: 2023-01-26T14:30:51+04:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.0.0-M5:test (default-test) on project Calculator: There are test failures.
+[ERROR]
+[ERROR] Please refer to E:\MAX\EPAM\AT_Mentoring_Java_Basic\Java Testing with JUnit\Calculator\target\surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR]
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR]
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+PS E:\MAX\EPAM\AT_Mentoring_Java_Basic\Java Testing with JUnit\Calculator> 
