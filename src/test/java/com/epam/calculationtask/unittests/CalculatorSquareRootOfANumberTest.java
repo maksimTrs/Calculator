@@ -13,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 @Tag("smoke")
 @DisplayName("Check calculator sqrtMethod() method for <double> type")
 @Execution(ExecutionMode.CONCURRENT)
-public class CalculatorSquareRootOfANumberTest extends BaseClassHelper {
+public class CalculatorSquareRootOfANumberTest extends BaseTest {
 
 
     @ParameterizedTest

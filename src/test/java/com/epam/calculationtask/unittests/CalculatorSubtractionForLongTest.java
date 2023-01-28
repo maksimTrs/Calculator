@@ -11,7 +11,7 @@ import org.junit.jupiter.params.provider.CsvSource;
 @Tag("smoke")
 @DisplayName("Check calculator subtractionMethod() method for <long> type")
 @Execution(ExecutionMode.CONCURRENT)
-public class CalculatorSubtractionForLongTest extends BaseClassHelper {
+public class CalculatorSubtractionForLongTest extends BaseTest {
 
     @ParameterizedTest
     @CsvSource({"0,1", "1,2", "100,1", "-4, -16"})

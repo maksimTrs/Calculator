@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 @Tag("regression")
 @DisplayName("Check calculator logic with negative scenarios")
 @Execution(ExecutionMode.CONCURRENT)
-public class CalculationNegativeTest extends BaseClassHelper {
+public class CalculationNegativeTest extends BaseTest {
 
     @ParameterizedTest
     @CsvSource({"9999, 99"})

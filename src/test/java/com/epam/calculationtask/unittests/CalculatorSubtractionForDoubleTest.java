@@ -12,7 +12,7 @@ import org.junit.jupiter.params.provider.CsvSource;
 @Tag("smoke")
 @DisplayName("Check calculator subtractionMethod() method for <double> type")
 @Execution(ExecutionMode.CONCURRENT)
-public class CalculatorSubtractionForDoubleTest extends BaseClassHelper {
+public class CalculatorSubtractionForDoubleTest extends BaseTest {
 
     @ParameterizedTest
     @CsvSource({"0, 1.22", "1.11, 2", "100, 1", "-4.99, -16.99", "-5.55, 0"})

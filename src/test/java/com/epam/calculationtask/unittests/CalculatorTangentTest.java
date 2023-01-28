@@ -13,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 @Tag("smoke")
 @DisplayName("Check calculator tangentMethod() method for <double> type")
 @Execution(ExecutionMode.CONCURRENT)
-public class CalculatorTangentTest extends BaseClassHelper {
+public class CalculatorTangentTest extends BaseTest {
 
     @ParameterizedTest
     @ValueSource(doubles = {1.99, -3.11, 5, 0, -15, Double.MIN_VALUE, Double.MAX_VALUE})

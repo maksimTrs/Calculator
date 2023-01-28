@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 @Tag("smoke")
 @DisplayName("Check calculator isPositiveValue() method for <long> type")
 @Execution(ExecutionMode.CONCURRENT)
-public class CalculatorPositiveValueVerificationTest extends BaseClassHelper {
+public class CalculatorPositiveValueVerificationTest extends BaseTest {
 
     @ParameterizedTest
     @ValueSource(ints = {1, 300, 11, Integer.MAX_VALUE})

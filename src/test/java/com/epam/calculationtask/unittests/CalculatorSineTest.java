@@ -13,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 @Tag("smoke")
 @DisplayName("Check calculator sineMethod() method for <double> type")
 @Execution(ExecutionMode.CONCURRENT)
-public class CalculatorSineTest extends BaseClassHelper {
+public class CalculatorSineTest extends BaseTest {
 
 
     @ParameterizedTest

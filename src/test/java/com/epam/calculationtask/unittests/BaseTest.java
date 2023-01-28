@@ -9,14 +9,14 @@ import org.junit.jupiter.api.TestInfo;
 
 import static com.epam.calculatortask.Timeout.sleep;
 
-public abstract class BaseClassHelper {
+public abstract class BaseTest {
 
-    static Logger logger = LogManager.getLogger(BaseClassHelper.class);
+    static Logger logger = LogManager.getLogger(BaseTest.class);
 
     protected Calculator calculator;
 
     @BeforeEach
-    public void logTestStart(TestInfo testInfo) {
+    public void setUp(TestInfo testInfo) {
         calculator = new Calculator();
 
         logger.info("********************************************************************************");
@@ -28,7 +28,9 @@ public abstract class BaseClassHelper {
     }
 
     @AfterEach
-    public void logTestStop(TestInfo testInfo) {
+    public void tearDown(TestInfo testInfo) {
+        calculator = null;
+
         logger.info("********************************************************************************");
         logger.info("<<< Test class " + testInfo.getTestClass().orElseThrow().getSimpleName()
                 + " with method: " + testInfo.getTestMethod().orElseThrow().getName() + " was finished >>>");

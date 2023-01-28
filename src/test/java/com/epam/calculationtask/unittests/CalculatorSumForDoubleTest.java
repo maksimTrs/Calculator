@@ -13,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 @Tag("smoke")
 @DisplayName("Check calculator sumMethod() method for <double> type")
 @Execution(ExecutionMode.CONCURRENT)
-public class CalculatorSumForDoubleTest extends BaseClassHelper {
+public class CalculatorSumForDoubleTest extends BaseTest {
 
     @ParameterizedTest
     @CsvSource({"99.99,0", "-1,1.11", "1001,101", "-9999.99, -1", "0, -3"})

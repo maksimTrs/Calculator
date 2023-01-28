@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 @Tag("smoke")
 @DisplayName("Check calculator isNegativeValue() method for <long> type")
 @Execution(ExecutionMode.CONCURRENT)
-public class CalculatorNegativeValueVerificationTest extends BaseClassHelper {
+public class CalculatorNegativeValueVerificationTest extends BaseTest {
 
 
     @ParameterizedTest

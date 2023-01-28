@@ -13,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 @Tag("smoke")
 @DisplayName("Check calculator cosineMethod() method for <double> type")
 @Execution(ExecutionMode.CONCURRENT)
-public class CalculatorCosineTest extends BaseClassHelper {
+public class CalculatorCosineTest extends BaseTest {
 
 
     @ParameterizedTest

@@ -12,7 +12,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 @Tag("smoke")
 @DisplayName("Check calculator multiplicationMethod() method for <long> type")
 @Execution(ExecutionMode.CONCURRENT)
-public class CalculatorMultiplicationForLongTest extends BaseClassHelper {
+public class CalculatorMultiplicationForLongTest extends BaseTest {
 
     @ParameterizedTest
     @CsvFileSource(resources = "/calculatorlongdata.csv")

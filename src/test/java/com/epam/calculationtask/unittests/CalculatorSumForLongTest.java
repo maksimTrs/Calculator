@@ -12,7 +12,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 @Tag("smoke")
 @DisplayName("Check calculator sumMethod() method for <long> type")
 @Execution(ExecutionMode.CONCURRENT)
-public class CalculatorSumForLongTest extends BaseClassHelper {
+public class CalculatorSumForLongTest extends BaseTest {
 
 
     @ParameterizedTest

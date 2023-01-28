@@ -13,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 @Tag("smoke")
 @DisplayName("Check calculator multiplicationMethod() method for <double> type")
 @Execution(ExecutionMode.CONCURRENT)
-public class CalculatorMultiplicationForDoubleTest extends BaseClassHelper {
+public class CalculatorMultiplicationForDoubleTest extends BaseTest {
 
     @ParameterizedTest
     @CsvFileSource(resources = "/calculatordoubledata.csv")

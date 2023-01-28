@@ -13,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 @Tag("smoke")
 @DisplayName("Check calculator divideMethod() method for <double> type")
 @Execution(ExecutionMode.CONCURRENT)
-public class CalculatorDivideForDoubleTypeTest extends BaseClassHelper {
+public class CalculatorDivideForDoubleTypeTest extends BaseTest {
 
     @ParameterizedTest
     @CsvSource({"33.33, 11.11", "-11, 43.99", "-100, -10001", "0, 55"})

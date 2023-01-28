@@ -16,7 +16,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 @Tag("smoke")
 @DisplayName("Check calculator powMethod() method for <double> type")
 @Execution(ExecutionMode.CONCURRENT)
-public class CalculatorPowerOfANumberTest extends BaseClassHelper {
+public class CalculatorPowerOfANumberTest extends BaseTest {
 
     public static Stream<Arguments> factory() {
         return Stream.of(

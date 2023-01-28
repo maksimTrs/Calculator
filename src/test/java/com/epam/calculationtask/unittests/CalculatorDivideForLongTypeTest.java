@@ -13,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 @Tag("smoke")
 @DisplayName("Check calculator divideMethod() method for <long> type")
 @Execution(ExecutionMode.CONCURRENT)
-public class CalculatorDivideForLongTypeTest extends BaseClassHelper {
+public class CalculatorDivideForLongTypeTest extends BaseTest {
 
 
     @ParameterizedTest
